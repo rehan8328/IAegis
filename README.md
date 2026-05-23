@@ -4,33 +4,74 @@
 
 IAegis is a modern cybersecurity command center designed to centralize threat visibility, monitoring, and incident awareness into one intelligent interface.
 
-## Vision
-To build a next-generation cyber defense platform that simplifies monitoring and improves security response workflows.
+---
+
+## About The Project
+
+Modern security systems generate alerts.
+IAegis aims to provide clarity.
+
+The platform is being designed to improve:
+- Threat monitoring
+- Incident awareness
+- Security analytics
+- Visualization of cyber events
+- Centralized defense workflows
+
+---
 
 ## Features
+
 - Real-time monitoring
-- Threat visualization
-- Security analytics
+- Threat visualization dashboard
 - Incident tracking
-- SOC-inspired dashboard
+- Security analytics
+- SOC-inspired UI
 - Scalable architecture
 
-## Tech Stack
-- React / Next.js
-- Python / Node.js
-- Tailwind CSS
-- Chart Visualization
-- REST APIs
+---
 
-## Status
-Currently under active development.
+## Tech Stack
+
+Frontend:
+- React / Next.js
+- Tailwind CSS
+
+Backend:
+- Python / Node.js
+
+Other:
+- REST APIs
+- Data Visualization
+- Authentication System
+
+---
+
+## Project Status
+
+🚧 Currently under active development.
+
+---
 
 ## Roadmap
-- [ ] Authentication System
-- [ ] Live Threat Feed
-- [ ] Alert Prioritization
-- [ ] AI-assisted Insights
-- [ ] Multi-user Dashboard
 
-## Author
-SK Rehan
+- [ ] Authentication System
+- [ ] Dashboard UI
+- [ ] Threat Feed Integration
+- [ ] Alert System
+- [ ] AI-assisted Insights
+- [ ] Multi-user Access
+
+---
+
+## Folder Structure
+
+```bash
+iaegis/
+│
+├── frontend/
+├── backend/
+├── assets/
+├── docs/
+└── README.md
+
