@@ -1,49 +1,53 @@
 # IAegis
 
-## Visibility. Intelligence. Defense.
-
-IAegis is a modern cybersecurity command center designed to centralize threat visibility, monitoring, and incident awareness into one intelligent interface.
+<p align="center">
+  <b>Visibility. Intelligence. Defense.</b>
+</p>
 
 ---
 
-## About The Project
+## Overview
 
-Modern security systems generate alerts.
-IAegis aims to provide clarity.
+IAegis is a modern cybersecurity command center designed to improve threat visibility, monitoring, and incident awareness through a centralized and intelligent interface.
 
-The platform is being designed to improve:
-- Threat monitoring
+The project focuses on building a scalable and SOC-inspired platform for modern security operations.
+
+---
+
+## Core Objectives
+
+- Centralized threat monitoring
+- Security event visualization
 - Incident awareness
-- Security analytics
-- Visualization of cyber events
-- Centralized defense workflows
+- Real-time analytics
+- Streamlined defense workflows
 
 ---
 
 ## Features
 
-- Real-time monitoring
-- Threat visualization dashboard
-- Incident tracking
+- Real-time monitoring dashboard
+- Threat visualization
 - Security analytics
-- SOC-inspired UI
-- Scalable architecture
+- Incident tracking system
+- SOC-inspired interface
+- Modular architecture
 
 ---
 
 ## Tech Stack
 
-Frontend:
+### Frontend
 - React / Next.js
 - Tailwind CSS
 
-Backend:
+### Backend
 - Python / Node.js
 
-Other:
+### Additional
 - REST APIs
-- Data Visualization
 - Authentication System
+- Data Visualization
 
 ---
 
@@ -55,23 +59,27 @@ Other:
 
 ## Roadmap
 
+- [ ] Dashboard Interface
 - [ ] Authentication System
-- [ ] Dashboard UI
 - [ ] Threat Feed Integration
-- [ ] Alert System
+- [ ] Alert Management
 - [ ] AI-assisted Insights
 - [ ] Multi-user Access
 
 ---
 
-## Folder Structure
+## Architecture
 
-```bash
-iaegis/
-│
-├── frontend/
-├── backend/
-├── assets/
-├── docs/
-└── README.md
+The platform is being designed using a modular and scalable architecture focused on monitoring, analytics, and future intelligent integrations.
 
+---
+
+## Vision
+
+To build a next-generation cyber defense platform that simplifies security operations and improves threat awareness.
+
+---
+
+## Author
+
+SK Rehan
