@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./iaegis.db
+      - DEBUG=true
+      - CORS_ORIGINS=["http://localhost:3000"]
+      - AGENT_API_KEY=iaegis-dev-agent-key
+    volumes: [backend_data:/app/data]
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports: ["3000:3000"]
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+      - NEXT_PUBLIC_WS_URL=ws://localhost:8000
+    depends_on: [backend]
+    restart: unless-stopped
+
+volumes:
+  backend_data:
